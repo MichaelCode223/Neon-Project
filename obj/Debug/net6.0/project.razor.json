@@ -140,6 +140,39 @@
         }
       },
       {
+        "HashCode": -323077308,
+        "Kind": "Components.Component",
+        "Name": "MyApplication.Shared.NavMenu",
+        "AssemblyName": "MyApplication",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyApplication.Shared.NavMenu"
+        }
+      },
+      {
+        "HashCode": -255519107,
+        "Kind": "Components.Component",
+        "Name": "MyApplication.Shared.NavMenu",
+        "AssemblyName": "MyApplication",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyApplication.Shared.NavMenu"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyApplication.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1760278899,
         "Kind": "Components.Component",
         "Name": "MyApplication.Shared.MainLayout",
@@ -232,143 +265,6 @@
           "Runtime.Name": "Components.None",
           "Common.TypeName": "MyApplication.Shared.MainLayout.Body",
           "Components.IsSpecialKind": "Components.ChildContent",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -323077308,
-        "Kind": "Components.Component",
-        "Name": "MyApplication.Shared.NavMenu",
-        "AssemblyName": "MyApplication",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Shared.NavMenu"
-        }
-      },
-      {
-        "HashCode": -255519107,
-        "Kind": "Components.Component",
-        "Name": "MyApplication.Shared.NavMenu",
-        "AssemblyName": "MyApplication",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyApplication.Shared.NavMenu"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -465743120,
-        "Kind": "Components.Component",
-        "Name": "MyApplication.Components.HeroAction",
-        "AssemblyName": "MyApplication",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HeroAction"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Components.HeroAction"
-        }
-      },
-      {
-        "HashCode": -1432644149,
-        "Kind": "Components.Component",
-        "Name": "MyApplication.Components.HeroAction",
-        "AssemblyName": "MyApplication",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyApplication.Components.HeroAction"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Components.HeroAction",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -1730619259,
-        "Kind": "Components.Component",
-        "Name": "MyApplication.Components.HeroText",
-        "AssemblyName": "MyApplication",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "HeroText"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Text",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Text"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Align",
-            "TypeName": "MudBlazor.Align",
-            "IsEnum": true,
-            "Metadata": {
-              "Common.PropertyName": "Align"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Components.HeroText"
-        }
-      },
-      {
-        "HashCode": -1118548102,
-        "Kind": "Components.Component",
-        "Name": "MyApplication.Components.HeroText",
-        "AssemblyName": "MyApplication",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MyApplication.Components.HeroText"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Text",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Text"
-            }
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "Align",
-            "TypeName": "MudBlazor.Align",
-            "IsEnum": true,
-            "Metadata": {
-              "Common.PropertyName": "Align"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Components.HeroText",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -490,68 +386,73 @@
         }
       },
       {
-        "HashCode": 239359758,
+        "HashCode": -1730619259,
         "Kind": "Components.Component",
-        "Name": "MyApplication.Components.RoomCard",
+        "Name": "MyApplication.Components.HeroText",
         "AssemblyName": "MyApplication",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "RoomCard"
+            "TagName": "HeroText"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Text",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Text"
+            }
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Align",
+            "TypeName": "MudBlazor.Align",
+            "IsEnum": true,
+            "Metadata": {
+              "Common.PropertyName": "Align"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Components.RoomCard"
+          "Common.TypeName": "MyApplication.Components.HeroText"
         }
       },
       {
-        "HashCode": -1905837320,
+        "HashCode": -1118548102,
         "Kind": "Components.Component",
-        "Name": "MyApplication.Components.RoomCard",
+        "Name": "MyApplication.Components.HeroText",
         "AssemblyName": "MyApplication",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MyApplication.Components.RoomCard"
+            "TagName": "MyApplication.Components.HeroText"
           }
         ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Components.RoomCard",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -61249944,
-        "Kind": "Components.Component",
-        "Name": "MyApplication.Components.HeroBookingbar",
-        "AssemblyName": "MyApplication",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
+        "BoundAttributes": [
           {
-            "TagName": "HeroBookingbar"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Components.HeroBookingbar"
-        }
-      },
-      {
-        "HashCode": 1632893233,
-        "Kind": "Components.Component",
-        "Name": "MyApplication.Components.HeroBookingbar",
-        "AssemblyName": "MyApplication",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
+            "Kind": "Components.Component",
+            "Name": "Text",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Text"
+            }
+          },
           {
-            "TagName": "MyApplication.Components.HeroBookingbar"
+            "Kind": "Components.Component",
+            "Name": "Align",
+            "TypeName": "MudBlazor.Align",
+            "IsEnum": true,
+            "Metadata": {
+              "Common.PropertyName": "Align"
+            }
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MyApplication.Components.HeroBookingbar",
+          "Common.TypeName": "MyApplication.Components.HeroText",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -605,6 +506,105 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MyApplication.Components.HeroSection",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -61249944,
+        "Kind": "Components.Component",
+        "Name": "MyApplication.Components.HeroBookingbar",
+        "AssemblyName": "MyApplication",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HeroBookingbar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyApplication.Components.HeroBookingbar"
+        }
+      },
+      {
+        "HashCode": 1632893233,
+        "Kind": "Components.Component",
+        "Name": "MyApplication.Components.HeroBookingbar",
+        "AssemblyName": "MyApplication",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyApplication.Components.HeroBookingbar"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyApplication.Components.HeroBookingbar",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -465743120,
+        "Kind": "Components.Component",
+        "Name": "MyApplication.Components.HeroAction",
+        "AssemblyName": "MyApplication",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "HeroAction"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyApplication.Components.HeroAction"
+        }
+      },
+      {
+        "HashCode": -1432644149,
+        "Kind": "Components.Component",
+        "Name": "MyApplication.Components.HeroAction",
+        "AssemblyName": "MyApplication",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyApplication.Components.HeroAction"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyApplication.Components.HeroAction",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 239359758,
+        "Kind": "Components.Component",
+        "Name": "MyApplication.Components.RoomCard",
+        "AssemblyName": "MyApplication",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "RoomCard"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyApplication.Components.RoomCard"
+        }
+      },
+      {
+        "HashCode": -1905837320,
+        "Kind": "Components.Component",
+        "Name": "MyApplication.Components.RoomCard",
+        "AssemblyName": "MyApplication",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyApplication.Components.RoomCard"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MyApplication.Components.RoomCard",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
