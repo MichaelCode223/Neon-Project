@@ -1,0 +1,11 @@
+<MudText Align="@Align" Typo="Typo.h3" GutterBottom="true" Style="text-shadow:1px 1px black; color: white;" Class="mb-16">@Text</MudText>
+
+@code {
+
+    [Parameter]
+    public string Text { get; set; } = "";
+
+    [Parameter]
+    public Align Align { get; set; } = Align.Center;
+
+}

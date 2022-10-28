@@ -1,0 +1,34 @@
+
+<MudAutocomplete T="String" 
+                 Label="Select your areas">
+</MudAutocomplete>
+@*<MudAutocomplete
+    AdornmentColor="Color.Primary" Adornment="Adornment.Start"
+    AdornmentIcon="@Icons.Filled.Search" Placeholder="@PlaceHolder"
+    HelperText="@HelperText" Label="@Label" Style="color:#ffffff !important;"
+    SearchFunc="AdvancedSearch"
+    ResetValueOnEmptyText="true"
+    ToStringFunc="@(e => e == null ? null : $"{e.Name} ({e.Address})")">
+
+</MudAutocomplete>
+*@
+@code {
+
+
+    [Parameter]
+    public string PlaceHolder { get; set; } = "";
+
+    [Parameter]
+    public string HelperText { get; set; } = "";
+
+    [Parameter]
+    public string Label { get; set; } = "";
+
+    [Parameter]
+    public string[] Places { get; set; } = Array.Empty<string>();
+
+    [Parameter]
+    public bool ForceInputTextWhite { get; set; } = false;
+    
+
+}
