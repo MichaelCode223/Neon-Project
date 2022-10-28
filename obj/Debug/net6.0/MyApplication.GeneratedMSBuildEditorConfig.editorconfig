@@ -26,12 +26,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZXJvQWN0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Components/HeroBookingbar.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZXJvQm9va2luZ2Jhci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Michael/Desktop/Projects/Neon-Project/Components/HeroText.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZXJvVGV4dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Michael/Desktop/Projects/Neon-Project/Components/HomeSearchBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lU2VhcmNoQmFyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Components/RoomCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb29tQ2FyZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Michael/Desktop/Projects/Neon-Project/Pages/Counter.razor]

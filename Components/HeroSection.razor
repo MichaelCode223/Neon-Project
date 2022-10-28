@@ -1,69 +1,17 @@
 <div class="herocontainer" style="@Styles">
+    
     <MudContainer MaxWidth="MaxWidth.Medium" Style="@(HalfWidth ? "padding-top: 3vh;" : "padding-top:7vh;")">
         @if (HalfWidth == false)
         {
             <HeroText Text="Find a place to call your own"></HeroText>
         }
         <MudPaper Class="mt-6" Elevation="3">
-            <div class="d-flex justify-end mr-4 pt-2">
-                <MudTooltip Text="Search">
-                    <MudIconButton Icon="@Icons.Filled.Search" Color="Color.Primary" Variant="Variant.Outlined"></MudIconButton>
-                </MudTooltip>
-            </div>
+            
             <div class="px-4 pb-3">
-                <HomeSearchBar PlaceHolder="Enter location or E&V ID" Label="@String.Empty"></HomeSearchBar>
+                <HeroBookingbar></HeroBookingbar>
             </div>
 
-            <MudGrid Class="px-4 py-3">
-                <MudItem md="4">
-                    <TransactionSelect Multiple="true" Label="Agreement Types"></TransactionSelect>
-                </MudItem>
-                <MudItem md="4">
-                    <PropertyTypesSelect Multiple="true" Label="Property Types"></PropertyTypesSelect>
-                </MudItem>
-                <MudItem md="4">
-                    <MudText Typo="Typo.caption">Price Range</MudText>
-                    <MudRangeInput T="int" @bind-Value="Price" Label="Range" InputMode="InputMode.numeric"
-                                   Adornment="Adornment.Start" AdornmentText="R">
-                    </MudRangeInput>
-                </MudItem>
-            </MudGrid>
-            <MudExpansionPanels Class="mt-1 mb-2">
-                <MudExpansionPanel Text="Advanced Filters">
-                    <MudGrid>
-                        <MudItem md="4">
-                            <MudNumericField T="int" @bind-Value="Bedroom" Label="Bedrooms"></MudNumericField>
-                        </MudItem>
-                        <MudItem md="4">
-                            <MudNumericField T="int" @bind-Value="@bathrooms" Label="Bathrooms"></MudNumericField>
-                        </MudItem>
-                        <MudItem md="4">
-                            <MudNumericField T="int" @bind-Value="@parking" Label="Parking Spaces"></MudNumericField>
-                        </MudItem>
-                        <MudItem md="4">
-                            <MudSelect T="bool?" Label="Pet Friendly" @bind-Value="@petfriendly" ToStringFunc="YesNoDontCareStringFunc">
-                                <MudSelectItem T="bool?" Value="null"></MudSelectItem>
-                                <MudSelectItem T="bool?" Value="true"></MudSelectItem>
-                                <MudSelectItem T="bool?" Value="false"></MudSelectItem>
-                            </MudSelect>
-                        </MudItem>
-                        <MudItem md="4">
-                            <MudSelect T="bool?" Label="In Complex" @bind-Value="@inComplex" ToStringFunc="YesNoDontCareStringFunc">
-                                <MudSelectItem T="bool?" Value="null"></MudSelectItem>
-                                <MudSelectItem T="bool?" Value="true"></MudSelectItem>
-                                <MudSelectItem T="bool?" Value="false"></MudSelectItem>
-                            </MudSelect>
-                        </MudItem>
-                        <MudItem md="4">
-                            <MudSelect T="bool?" Label="WiFi" @bind-Value="@wifi" ToStringFunc="YesNoDontCareStringFunc">
-                                <MudSelectItem T="bool?" Value="null"></MudSelectItem>
-                                <MudSelectItem T="bool?" Value="true"></MudSelectItem>
-                                <MudSelectItem T="bool?" Value="false"></MudSelectItem>
-                            </MudSelect>
-                        </MudItem>
-                    </MudGrid>
-                </MudExpansionPanel>
-            </MudExpansionPanels>
+            
 
         </MudPaper>
 
