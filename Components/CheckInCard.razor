@@ -1,0 +1,33 @@
+<MudPaper Class="pa-16 ma-2" Elevation="0">
+<MudPaper Class="pa-8 ma-2" Elevation="0">
+    <MudText Typo="Typo.h4" Align="Align.Center">Availability and Pricing</MudText>
+</MudPaper>
+
+    <MudStack Row="true">
+            <MudDatePicker Label="Check In" Editable="true" @bind-Date="date" Placeholder="Select Date" />
+            <MudDatePicker Label="Check Out" Editable="true" @bind-Date="date" Placeholder="Select Date" />
+        <MudSelect T="double" Label="Adults" Variant="Variant.Filled" AnchorOrigin="Origin.BottomCenter">
+            <MudSelectItem T="double" Value="1"/>
+            <MudSelectItem T="double" Value="2"/>
+            <MudSelectItem T="double" Value="3"/>
+            <MudSelectItem T="double" Value="4"/>
+            <MudSelectItem T="double" Value="5"/>
+        </MudSelect>
+        <MudSelect T="double" Label="Kids" Variant="Variant.Filled" AnchorOrigin="Origin.BottomCenter">
+            <MudSelectItem T="double" Value="1"/>
+            <MudSelectItem T="double" Value="2"/>
+            <MudSelectItem T="double" Value="3"/>
+            <MudSelectItem T="double" Value="4"/>
+            <MudSelectItem T="double" Value="5"/>
+        </MudSelect>
+    </MudStack>
+
+    <MudPaper Class="pa-8 ma-2" Elevation="0">
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" FullWidth="true">Check Availability</MudButton>
+    </MudPaper>
+    
+</MudPaper>
+
+@code {
+    DateTime? date = DateTime.Today;
+}

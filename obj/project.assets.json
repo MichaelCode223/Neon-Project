@@ -1837,11 +1837,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\MyApplication.csproj",
+      "projectUniqueName": "c:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\MyApplication.csproj",
       "projectName": "MyApplication",
-      "projectPath": "C:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\MyApplication.csproj",
+      "projectPath": "c:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\MyApplication.csproj",
       "packagesPath": "C:\\Users\\niema\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\obj\\",
+      "outputPath": "c:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\niema\\AppData\\Roaming\\NuGet\\NuGet.Config"
