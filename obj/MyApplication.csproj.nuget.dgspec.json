@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\MyApplication.csproj": {}
+    "C:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\MyApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\MyApplication.csproj": {
+    "C:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\MyApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\MyApplication.csproj",
+        "projectUniqueName": "C:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\MyApplication.csproj",
         "projectName": "MyApplication",
-        "projectPath": "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\MyApplication.csproj",
-        "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\obj\\",
+        "projectPath": "C:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\MyApplication.csproj",
+        "packagesPath": "C:\\Users\\niema\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\niema\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
