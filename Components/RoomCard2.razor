@@ -1,7 +1,24 @@
 <MudPaper Class="pa-16 ma-2" Elevation="3">
 <MudStack Row="true">
 
-            
+            <MudCarousel Class="mud-width-full" Style="height:500px;" ShowArrows="@arrows" ShowBullets="@bullets" EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
+    <MudCarouselItem Transition="transition" Color="@Color.Primary">
+        <div class="d-flex" style="height:100%">
+            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="transition" Color="@Color.Secondary">
+        <div class="d-flex" style="height:100%">
+            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="transition">
+        <div class="d-flex" style="100%">
+            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Color="@Color.Primary" Size="@Size.Large" />
+        </div>
+    </MudCarouselItem>
+</MudCarousel>
+
             
             <MudPaper Elevation="0" Width="65%"> 
 
@@ -19,10 +36,14 @@
                 <MudButton Variant="Variant.Outlined" Color="Color.Primary" Size="Size.Medium">Book Now</MudButton>
                 </div>
 
-                
-
         </MudPaper>
-
-        <MudImage Align="Align.End" Src="/img/pics/bedroom2.jpg" Width="500" Height="500" Elevation="25" Class="rounded-lg"/>
 </MudStack>
 </MudPaper>
+
+@code{ 
+    private bool arrows = true;
+    private bool enableSwipeGesture = true;
+    private bool bullets = true;
+    private bool autocycle = true;
+    private Transition transition = Transition.Slide;
+}
