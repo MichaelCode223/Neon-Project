@@ -1832,19 +1832,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\niema\\.nuget\\packages\\": {}
+    "C:\\Users\\Michael\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\MyApplication.csproj",
+      "projectUniqueName": "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\MyApplication.csproj",
       "projectName": "MyApplication",
-      "projectPath": "c:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\MyApplication.csproj",
-      "packagesPath": "C:\\Users\\niema\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\niema\\Documents\\GitHub\\Neon-Project\\Neon-Project\\obj\\",
+      "projectPath": "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\MyApplication.csproj",
+      "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\niema\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"

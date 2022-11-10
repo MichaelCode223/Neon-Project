@@ -11,73 +11,73 @@ build_property.EnableTrimAnalyzer = true
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = MyApplication
 build_property.RootNamespace = MyApplication
-build_property.ProjectDir = C:\Users\niema\Documents\GitHub\Neon-Project\Neon-Project\
+build_property.ProjectDir = C:\Users\Michael\Desktop\Projects\Neon-Project\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\niema\Documents\GitHub\Neon-Project\Neon-Project
+build_property.MSBuildProjectDirectory = C:\Users\Michael\Desktop\Projects\Neon-Project
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/App.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Components/CheckInCard.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Components/CheckInCard.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGVja0luQ2FyZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Components/ContactUs.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Components/ContactUs.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250YWN0VXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Components/HeroAction.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Components/HeroAction.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZXJvQWN0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Components/HeroBookingbar.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Components/HeroBookingbar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZXJvQm9va2luZ2Jhci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Components/HeroText.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Components/HeroText.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZXJvVGV4dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Components/HomeSearchBar.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Components/HomeSearchBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIb21lU2VhcmNoQmFyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Components/RoomCard.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Components/RoomCard.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb29tQ2FyZC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Components/RoomCard2.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Components/RoomCard2.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb29tQ2FyZDIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Pages/Counter.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Pages/FetchData.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Pages/Index.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Shared/MainLayout.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Shared/NavMenu.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/_Imports.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/niema/Documents/GitHub/Neon-Project/Neon-Project/Components/HeroSection.razor]
+[C:/Users/Michael/Desktop/Projects/Neon-Project/Components/HeroSection.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xIZXJvU2VjdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-ks1c84j9bp
