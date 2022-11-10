@@ -1,7 +1,7 @@
-<MudPaper Class="pa-16 ma-2" Elevation="3">
+<MudPaper Class="pt-10 pb-10" Elevation="3">
 <MudStack Row="true">
 
-            <MudCarousel Class="mud-width-full" Style="height:500px;" ShowArrows="@arrows" ShowBullets="@bullets" EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
+            <MudCarousel Class="mud-width-full" Style="height:500px;" ShowArrows="@arrows" EnableSwipeGesture="@enableSwipeGesture" AutoCycle="@autocycle" TData="object">
     <MudCarouselItem Transition="transition" Color="@Color.Primary">
         <div class="d-flex" style="height:100%">
             <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
@@ -20,7 +20,7 @@
 </MudCarousel>
 
             
-            <MudPaper Elevation="0" Width="65%"> 
+            <MudPaper Elevation="0" Width="100%"> 
 
                 <MudText Align="Align.Center" Typo="Typo.h5" Class="pt-4 pb-4">FAMILY ROOM</MudText>
                 <MudDivider />
@@ -43,7 +43,6 @@
 @code{ 
     private bool arrows = true;
     private bool enableSwipeGesture = true;
-    private bool bullets = true;
     private bool autocycle = true;
     private Transition transition = Transition.Slide;
 }
