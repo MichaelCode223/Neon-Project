@@ -1,0 +1,63 @@
+@using System.Text.RegularExpressions
+@using System.ComponentModel.DataAnnotations
+<MudDialog>
+<DialogContent>
+        
+
+<MudGrid>
+    <MudItem >
+        <MudPaper Class="pa-4">
+            <MudForm @ref="form" @bind-IsValid="@success" @bind-Errors="@errors">
+                    <MudTextField T="string" Label="Full Name" Required="true" RequiredError="User name is required!"/>
+                    <MudTextField T="string" Label="Mobile Number" Required="true" RequiredError="Mobile number is required!"
+                                  Validation="@(new EmailAddressAttribute() {ErrorMessage = "The email address is invalid"})"/>
+                    <MudStack Row="true">
+                    <MudDatePicker Label="Check In" Editable="true" @bind-Date="date" Placeholder="Select Date" />
+                    <MudDatePicker Label="Check Out" Editable="true" @bind-Date="date" Placeholder="Select Date" />
+                    </MudStack>
+                    <MudStack Row="true">
+                    <MudSelect T="double" Label="Adults" Variant="Variant.Filled" AnchorOrigin="Origin.BottomCenter">
+                        <MudSelectItem T="double" Value="1"/>
+                        <MudSelectItem T="double" Value="2"/>
+                        <MudSelectItem T="double" Value="3"/>
+                        <MudSelectItem T="double" Value="4"/>
+                        <MudSelectItem T="double" Value="5"/>
+                    </MudSelect>
+                    <MudSelect T="double" Label="Kids" Variant="Variant.Filled" AnchorOrigin="Origin.BottomCenter">
+                        <MudSelectItem T="double" Value="1"/>
+                        <MudSelectItem T="double" Value="2"/>
+                        <MudSelectItem T="double" Value="3"/>
+                        <MudSelectItem T="double" Value="4"/>
+                        <MudSelectItem T="double" Value="5"/>
+                    </MudSelect>
+                    </MudStack>
+                    <MudButton Class="mt-2" FullWidth="true" Variant="Variant.Filled" Color="Color.Primary">Book Now</MudButton>
+                    
+            </MudForm>   
+        </MudPaper>
+       
+    </MudItem>
+</MudGrid>
+
+</DialogContent>
+<DialogActions>
+        <MudButton OnClick="Cancel">Cancel</MudButton>
+        <MudButton Color="Color.Primary" OnClick="Submit">Ok</MudButton>
+</DialogActions>
+</MudDialog>
+
+
+@code {
+    [CascadingParameter] MudDialogInstance MudDialog { get; set; }
+
+    void Submit() => MudDialog.Close(DialogResult.Ok(true));
+    void Cancel() => MudDialog.Cancel();
+
+    
+    bool success;
+    string[] errors = { };
+    
+    MudForm form;
+    DateTime? date = DateTime.Today;
+
+}
