@@ -3,7 +3,7 @@
     <MudText Align="Align.Center" Class="pt-6" Typo="Typo.h4">Reviews</MudText>
 
 
-<MudCarousel Class="mud-width-full" Style="height:200px;" AutoCycle="@autocycle" TData="object">
+<MudCarousel Class="mud-width-full" Style="height:200px;" ShowArrows="@arrows" ShowBullets="@bullets" AutoCycle="@autocycle" TData="object">
     
     <MudCarouselItem Transition="transition" >
         <div class="d-flex" style="height:100%">
@@ -82,6 +82,9 @@
 </MudPaper>
 
 @code{ 
+    private bool arrows = true;
+    private bool bullets = false;
+    private bool enableSwipeGesture = true;
     private bool autocycle = true;
     private Transition transition = Transition.Slide;
 }
