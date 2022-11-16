@@ -1,64 +1,57 @@
-<MudPaper Class="pa-16 ma-2" Elevation="0">
-    <MudText Typo="Typo.h4" Align="Align.Center">Contact Us</MudText>
-    <MudGrid>
-        <MudItem xs="12" sm="6">
-            <MudStack>
-                <MudTextField T="string" Label="First Name" Class="mb-4"></MudTextField>
-                    <MudTextField T="string" Label="Last name" Class="mb-4"></MudTextField>
-                    <MudTextField T="string" Label="Mobile Number" Class="mb-4"></MudTextField>
-                    <MudTextField T="string" Lines="5" Label="Message" Class="mb-4"></MudTextField>
-                    <MudButton Variant="Variant.Filled" Color="Color.Primary" FullWidth="true">Message</MudButton>
+<MudPaper Class="pa-4 ma-2" Elevation="0">
+
+        
+            <MudText Typo="Typo.h4" Align="Align.Center">Contact Us</MudText>
+        
+
+   <MudGrid>
+       <MudItem xs="6">
+         <MudPaper Class="pa-6 ma-4" Elevation="0">
+             <MudStack>
+                
+                <MudText Typo="Typo.h5" Align="Align.Center" Color="Color.Info">How To Reach Us</MudText>
+                <MudText Typo="Typo.subtitle1" Align="Align.Center" Class="ma-10">If you have any queries or need more information please feel free to contact us.</MudText>
+             
+             <MudStack Row="true">
+                <MudIcon Icon="@Icons.Filled.Email" Color="Color.Info" />
+                <MudText Typo="Typo.subtitle1" Class="ml-4">hello@neonmoon.com</MudText>
             </MudStack>
-        </MudItem>
-        <MudItem xs="12" sm="6">
             
-                    <MudStack>     
-                <MudPaper Elevation="0">
-                     <MudStack Row="true">
-                <MudPaper Class="pa-6 ma-2" Elevation="0">
-            <MudIconButton Icon="@Icons.TwoTone.LocationOn" Color="Color.Error" aria-label="phone"></MudIconButton>
-                </MudPaper>
-                    <MudStack Row="false">
-                        <MudPaper Class="pa-6 ma-2" Elevation="0">
-                            <MudText Typo="Typo.h5">XYZ Road, ABC Building</MudText>
-                            <MudText>Johannesburg, South Africa, RSA</MudText>
-                        </MudPaper>
-                    </MudStack> 
-                </MudStack>
-                </MudPaper>
-                
-                
-                <MudPaper Elevation="0">
-                    <MudStack Row="true">
-                <MudPaper Class="pa-6 ma-2" Elevation="0">
-            <MudIconButton Icon="@Icons.Filled.Phone" Color="Color.Error" aria-label="phone"></MudIconButton>
-                </MudPaper>
-                <MudStack Row="false">
-                    <MudPaper Class="pa-6 ma-2" Elevation="0">
-                        <MudText Typo="Typo.h5">(+27) 123-454-6789</MudText>
-                        <MudText>Mon - Sat, 10AM - 6PM</MudText>
-                    </MudPaper>
-                </MudStack> 
+            <MudStack Row="true">
+                <MudIcon Icon="@Icons.Filled.Phone" Color="Color.Info" />
+                <MudText Typo="Typo.subtitle1" Class="ml-4">(+27)-69-321-4569</MudText>
+            </MudStack>
+
+            <MudStack Row="true">
+                <MudIcon Icon="@Icons.Filled.LocationOn" Color="Color.Info" />
+                <MudText Typo="Typo.subtitle1" Class="ml-4">40 Jasons Way, 9469 Welkom, South Africa </MudText>
+            </MudStack>
 
             </MudStack>
-                </MudPaper>
-
-
-                <MudPaper Elevation="0">
-                        <MudStack Row="true">
-                    <MudPaper Class="pa-6 ma-2" Elevation="0">
-                    <MudIconButton Icon="@Icons.TwoTone.Email" Color="Color.Error" aria-label="email"></MudIconButton>
-                </MudPaper>
-                <MudStack Row="false">
-                    <MudPaper Class="pa-6 ma-2" Elevation="0">
-                        <MudText Typo="Typo.h5">info@pitchperfectproperties.com</MudText>
-                        <MudText>Email Us your Query</MudText>
-                    </MudPaper>
-                </MudStack>
-
-            </MudStack>
-                </MudPaper> 
-                    </MudStack>
+             
+         </MudPaper>
         </MudItem>
+    
+    <MudItem xs="6">
+        
+            <MudStack>
+                
+                <MudStack Row="true">
+                    <MudTextField T="string" Label="First Name" Variant="Variant.Outlined" Class="mt-6"></MudTextField>
+                    <MudTextField T="string" Label="Last Name" Variant="Variant.Outlined" Class="mt-6"></MudTextField>
+                </MudStack>
+
+                <MudSelect T="string" Label="Resevations">
+                    <MudSelectItem Value="@("Resevations")"></MudSelectItem>
+                    <MudSelectItem Value="@("General Enquiry")"></MudSelectItem>
+                    <MudSelectItem Value="@("Feedback")"></MudSelectItem>
+                </MudSelect>
+
+                    <MudTextField T="string" Label="Email"></MudTextField>
+                    <MudTextField T="string" Lines="5" Label="Message"></MudTextField>
+                    <MudButton Variant="Variant.Filled" Color="Color.Info" FullWidth="true">Message</MudButton>
+            </MudStack>
+       
+    </MudItem>
     </MudGrid>
 </MudPaper>
