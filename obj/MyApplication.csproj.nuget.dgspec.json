@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\MyApplication.csproj": {}
+    "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\MyApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\MyApplication.csproj": {
+    "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\MyApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\MyApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\MyApplication.csproj",
         "projectName": "MyApplication",
-        "projectPath": "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\MyApplication.csproj",
+        "projectPath": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\MyApplication.csproj",
         "packagesPath": "C:\\Users\\Michael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\obj\\",
+        "outputPath": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,7 +68,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.8, 6.0.8]"
+              "version": "[6.0.13, 6.0.13]"
             }
           ],
           "frameworkReferences": {
@@ -74,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

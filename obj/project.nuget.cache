@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "62/c4F0TkYlfq5vAReSkEVZXBXI6GgfBOUNcfDHxRsOpAyk/bYZdT3aeBmXRuSvhABUUAL0Es9nGN20rko1EPw==",
+  "dgSpecHash": "k2426hBUbDiIItXsFMrXlzp8prcydtRtorUT/nZ/JqiMa2RhmOhn5TfwHxDsp2kdAvkWLsclV5WNjXKtSeb+JA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Michael\\Desktop\\Projects\\Neon-Project\\MyApplication.csproj",
+  "projectFilePath": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\MyApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Michael\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.7\\microsoft.aspnetcore.authorization.6.0.7.nupkg.sha512",
     "C:\\Users\\Michael\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.7\\microsoft.aspnetcore.components.6.0.7.nupkg.sha512",
@@ -34,7 +34,7 @@
     "C:\\Users\\Michael\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\Michael\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Michael\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
-    "C:\\Users\\Michael\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.8\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.8.nupkg.sha512"
+    "C:\\Users\\Michael\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.13\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }

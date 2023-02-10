@@ -1,0 +1,133 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\obj\\Debug\\net6.0\\build-gz\\mCVBTw3f.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\obj\\Debug\\net6.0\\scopedcss\\bundle\\MyApplication.styles.css",
+      "PackagePath": "staticwebassets\\MyApplication.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Bar.JPG",
+      "PackagePath": "staticwebassets\\img\\Bar.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\House1.JPG",
+      "PackagePath": "staticwebassets\\img\\House1.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Lapa.JPG",
+      "PackagePath": "staticwebassets\\img\\Lapa.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Buget Double room\\Double .jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Buget Double room\\Double .jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Buget Double room\\Double 2.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Buget Double room\\Double 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Buget Double room\\Double 3.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Buget Double room\\Double 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Buget Double room\\Double 4.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Buget Double room\\Double 4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Buget Room 2\\Buget 2.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Buget Room 2\\Buget 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Buget Room 2\\Buget 3.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Buget Room 2\\Buget 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Buget Room 2\\Buget.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Buget Room 2\\Buget.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Deluxe Double Room\\Deluxe 1.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Deluxe Double Room\\Deluxe 1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Deluxe Double Room\\Deluxe 2.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Deluxe Double Room\\Deluxe 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Deluxe Double Room\\Deluxe 3.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Deluxe Double Room\\Deluxe 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Deluxe Double Room\\Deluxe 4.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Deluxe Double Room\\Deluxe 4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Family Room\\Family 2.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Family Room\\Family 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Family Room\\Family 3.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Family Room\\Family 3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Family Room\\Family.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Family Room\\Family.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Twin Room\\Twin .jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Twin Room\\Twin .jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\Neon moon Pics\\Twin Room\\Twin 2.jpg",
+      "PackagePath": "staticwebassets\\img\\Neon moon Pics\\Twin Room\\Twin 2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\SwimmingPool.JPG",
+      "PackagePath": "staticwebassets\\img\\SwimmingPool.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\house2.JPG",
+      "PackagePath": "staticwebassets\\img\\house2.JPG"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\img\\see-sky.jpg",
+      "PackagePath": "staticwebassets\\img\\see-sky.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Michael\\Desktop\\Projects\\Upwork\\Neon-Project\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MyApplication.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MyApplication.props",
+      "PackagePath": "build\\MyApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MyApplication.props",
+      "PackagePath": "buildMultiTargeting\\MyApplication.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MyApplication.props",
+      "PackagePath": "buildTransitive\\MyApplication.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
